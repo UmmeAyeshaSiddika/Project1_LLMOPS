@@ -1,0 +1,13 @@
+prefix=D:/KrishNayekAcademy/LLMOPS_Industry_Ready_Projects/Day1-14/Practice/project1_LLMOPS/env/Library
+exec_prefix=D:/KrishNayekAcademy/LLMOPS_Industry_Ready_Projects/Day1-14/Practice/project1_LLMOPS/env/Library
+libdir=D:/KrishNayekAcademy/LLMOPS_Industry_Ready_Projects/Day1-14/Practice/project1_LLMOPS/env/Library/lib
+sharedlibdir=D:/KrishNayekAcademy/LLMOPS_Industry_Ready_Projects/Day1-14/Practice/project1_LLMOPS/env/Library/lib
+includedir=D:/KrishNayekAcademy/LLMOPS_Industry_Ready_Projects/Day1-14/Practice/project1_LLMOPS/env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
